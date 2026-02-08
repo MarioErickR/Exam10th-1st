@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: hellodocker-deployment
-        image: marioericke/https://github.com/MarioErickR/Exam10th-1st.git:latest
+        image: marioerickr/exam10th-1st:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80
